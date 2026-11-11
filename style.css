@@ -46,7 +46,27 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
   gap: 30px;
   border-bottom: 1px solid var(--line);
 }
-.site-name { font: 22px Georgia, serif; letter-spacing: -.4px; }
+.site-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+  width: max-content;
+}
+.site-monogram {
+  color: var(--accent);
+  font: 36px/1 Georgia, serif;
+  letter-spacing: -3px;
+  padding-right: 3px;
+}
+.site-monogram > span { font-size: 23px; margin-left: 2px; }
+.site-wordmark {
+  border-left: 1px solid var(--line);
+  padding: 7px 0 7px 15px;
+  font: 13px/1.4 Arial, sans-serif;
+  letter-spacing: .3px;
+}
+.site-name:hover .site-wordmark { color: var(--accent); }
 .site-header nav { display: flex; gap: 27px; margin-left: auto; font-size: 12px; }
 .site-header nav a:hover, .affiliation:hover { color: var(--accent); }
 .site-header nav a:last-child span { color: var(--accent); margin-left: 5px; }
@@ -162,7 +182,9 @@ footer { border-top: 1px solid var(--line); padding-block: 27px; display: flex; 
 }
 @media (max-width: 650px) {
   .site-header { flex-wrap: wrap; gap: 16px; padding-block: 20px; }
-  .site-name { font-size: 22px; flex: 1; }
+  .site-name { gap: 10px; margin-right: auto; }
+  .site-monogram { font-size: 31px; }
+  .site-wordmark { max-width: 92px; font-size: 11px; padding-left: 10px; }
   .site-header nav { order: 3; width: 100%; margin: 0; gap: 25px; }
   .theme-option { min-width: 55px; padding-inline: 8px; }
   .academic-layout { grid-template-columns: 1fr; gap: 36px; padding-block: 38px 45px; }
