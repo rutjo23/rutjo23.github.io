@@ -1,8 +1,16 @@
-# Jeonghoon Oh | Text Mining Portfolio
+# Jeonghoon Oh | Academic Portfolio
 
-Personal academic portfolio showcasing Text Mining coursework at Rutgers University.
+Personal academic website of Jeonghoon Oh, a PhD student in Accounting Information Systems at Rutgers University. Research interests include voluntary disclosure, intangible assets, ESG reporting, and XBRL.
 
-[Visit the website](https://rutjo23.github.io/?v=b00ce3c)
+[Visit the website](https://rutjo23.github.io/?v=15)
+
+## Website
+
+- [About](https://rutjo23.github.io/?v=15) introduces my research interests and methods.
+- [Research](https://rutjo23.github.io/research.html?v=15) presents working papers and work in progress, including submission and R&R status.
+- [Projects](https://rutjo23.github.io/projects.html?v=15) presents selected coursework from *Decoding of Textual Corporate Communications*, taught by Dr. Kevin Moffitt at Rutgers Business School in Fall 2026.
+
+The site uses a white background, Rutgers scarlet accents, and a responsive layout with light and dark modes.
 
 ## Projects
 

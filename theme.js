@@ -21,7 +21,7 @@
       button.title = isDark ? 'Switch to day mode' : 'Switch to night mode';
     }
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = isDark ? '#191c22' : '#f6f4ef';
+    if (meta) meta.content = isDark ? '#24211e' : '#ffffff';
   }
 
   applyTheme(preference || (systemTheme.matches ? 'dark' : 'light'));
