@@ -2,7 +2,7 @@
 
 Personal academic portfolio showcasing Text Mining coursework at Rutgers University.
 
-[Visit the website](https://rutjo23.github.io/)
+[Visit the website](https://rutjo23.github.io/?v=b00ce3c)
 
 ## Projects
 
